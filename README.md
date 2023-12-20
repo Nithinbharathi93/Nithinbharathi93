@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Nithinbharathi93
-- 👀 I’m interested in python programming, apps and game development 
-- 🌱 I’m currently learning python-kivy module
+- 👀 I’m interested in python programming and Cybersecurity
+- 🌱 I’m currently learning Pentesting
 - 💞️ I’m looking to collaborate on app developing offers
 - 📫 How to reach me fiverr--> nithinbharathi
 
