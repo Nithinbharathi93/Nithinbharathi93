@@ -76,7 +76,7 @@ Looking for exciting projects in cybersecurity, app development, and AI-powered 
     <img src="https://skillicons.dev/icons?i=linkedin" width="50" />
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:nithinbharathi93@gmail.com">
+  <a href="mailto:nithinthelordest@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" width="50" style="filter: invert(20%) sepia(50%) saturate(200%) hue-rotate(0deg);" />
   </a>
 </p>
