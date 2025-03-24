@@ -21,7 +21,7 @@
 ## 🏆 Skill Zone
 
 <p align="center">
-  <a href="https://skillicons.dev">
+  <a href="#">
     <img src="https://skillicons.dev/icons?i=linux,bash,git,python,mysql,mongodb,php,nodejs,express,react,flutter" />
   </a>
 </p>
