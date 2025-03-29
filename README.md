@@ -38,9 +38,15 @@
 
 ## ⚡ GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nithinbharathi93&show_icons=true&theme=radical" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nithinbharathi93&theme=radical" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Nithinbharathi93&show_icons=true&theme=react" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nithinbharathi93&theme=react" height="160"/>
 </p>
+
+## 📊 GitHub Activity Graph  
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nithinbharathi93&theme=react&area=true&hide_border=true"/>
+</p>
+
 
 
 ---
@@ -71,13 +77,13 @@
 Looking for exciting projects in cybersecurity, app development, and AI-powered security solutions.  
 
 📫 **Reach Me:**  
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/nithinbharathi/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="50" />
+    <img src="https://skillicons.dev/icons?i=linkedin" width="30" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:nithinthelordest@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" width="50" style="filter: invert(20%) sepia(50%) saturate(200%) hue-rotate(0deg);" />
+    <img src="https://skillicons.dev/icons?i=gmail" width="30" style="filter: invert(20%) sepia(50%) saturate(200%) hue-rotate(0deg);" />
   </a>
 </p>
 
