@@ -111,10 +111,6 @@
 
 ---
 
-## 📌 Timeline View  
-
----
-
 ## 🎓 Certifications
 
 * ☁️ AWS Academy – Generative AI Foundation | Cloud Foundations
