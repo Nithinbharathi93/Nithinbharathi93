@@ -72,12 +72,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nithinbharathi93&theme=react" height="160"/>
 </p>
 
-/* ## 📊 GitHub Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nithinbharathi93&theme=react&area=true&hide_border=true"/>
-</p>
-*/
 ---
 
 ## 🌟 Professional Journey  
