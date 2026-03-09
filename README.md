@@ -9,15 +9,14 @@
 ## 🚀 About Me  
 
 ```yaml
-💻 Aspiring Software Development Engineer: Strong foundation in SDLC, backend engineering, and scalable system design.
-🌐 Full-Stack Developer: Builds production-ready applications using ReactJS, MERN stack, and Flask.
-🧠 Backend & API Engineer: Experienced in Python, Node.js, RESTful APIs, authentication, and data workflows.
-🔐 Security-Aware Developer: Hands-on with secure file uploads, ClamAV scanning, and vulnerability assessment.
-⚙️ DevOps & Automation: Works with Docker, GitHub Actions (CI/CD), n8n workflows, Vercel, and Render.
-🐧 Linux Enthusiast: Comfortable with CLI-based development, automation, and security tooling.
-🎯 Open Source Contributor: 90+ repositories, 400+ yearly commits, maintaining 5+ FOSS projects.
-👨‍🏫 Mentor & Leader: Trained 250+ students and organized CTFs, hackathons, and technical programs.
-```
+🧠 Aspiring System Design Engineer: Focused on designing scalable, high-availability backend systems and distributed architectures.
+⚙️ Backend & Infrastructure Engineer: Builds production APIs and data pipelines using Node.js, Python, Fastify, and Flask.
+🤖 AI Systems Developer: Develops RAG-based platforms using LLMs (Gemini, Llama), vector databases (pgvector), and orchestration frameworks like LangChain.
+📊 Data & Storage Architectures: Works with PostgreSQL, MongoDB, Redis caching, and vector databases for high-performance systems.
+🔐 Security-First Developer: Background in penetration testing, vulnerability assessment, and secure system design.
+🚀 DevOps & Deployment: Experienced with Docker, CI/CD pipelines, cloud deployments, and automated workflows.
+🎯 Open Source Engineer: Maintains multiple production-ready repositories with a focus on scalable backend architecture.
+``` 
 
 ---
 
@@ -35,37 +34,45 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/%20Study%20Sync%20AI-ReactJS%20|%20Node.js%20|%20Gemini%20AI%20|%20PostgreSQL-36BCF7?style=for-the-badge&logo=google" />
+    <img src="https://img.shields.io/badge/%20Ops--Sentinel%20(AI%20Incident%20Responder)-Node.js%20|%20Redis%20|%20Supabase%20pgvector%20|%20Llama%203-FF4B4B?style=for-the-badge&logo=redis" />
   </a>
   <br>
-  <sub>AI-powered learning platform that generates personalized study plans and assessments using Gemini AI.</sub>
+  <sub>
+  Enterprise-grade SRE platform using Retrieval-Augmented Generation (RAG) to automatically analyze production logs and generate grounded remediation steps. Built a high-throughput monitoring pipeline with Redis sliding windows and vector search for causal incident analysis.
+  </sub>
 </p>
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/%20NASA%20Exoplanet%20Predictor-Scikit--Learn%20|%20ReactJS%20|%20Node.js-4CAF50?style=for-the-badge&logo=nasa" />
+    <img src="https://img.shields.io/badge/%20Zentellect%20(AI%20EdTech%20SaaS)-React%2019%20|%20Fastify%20|%20LangChain%20|%20Llama%203%20|%20Supabase-8A2BE2?style=for-the-badge&logo=openai" />
   </a>
   <br>
-  <sub>Machine learning system classifying exoplanets with 99% accuracy using NASA archival datasets.</sub>
+  <sub>
+  Adaptive AI learning platform that converts PDFs into structured courses using RAG pipelines. Includes a live coding environment via Piston API and an automated AI test generation engine for evaluating programming solutions.
+  </sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nithinbharathi93/ts-intern-panel">
-    <img src="https://img.shields.io/badge/%20Intern%20Lookup%20System-ReactJS%20|%20Node.js%20|%20Google%20Sheets%20API-FF9800?style=for-the-badge&logo=google" />
+  <a href="#">
+    <img src="https://img.shields.io/badge/%20Study%20Sync%20AI-ReactJS%20|%20Node.js%20|%20Gemini%20AI%20|%20PostgreSQL-36BCF7?style=for-the-badge&logo=google" />
   </a>
   <br>
-  <sub>Unified dashboard integrating Google Sheets and Drive for real-time intern tracking.</sub>
+  <sub>
+  AI-powered productivity platform that generates personalized study schedules and assessments using Google Gemini. Built a full-stack architecture with Supabase PostgreSQL, Prisma ORM, and analytics-driven task tracking.
+  </sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nithinbharathi93/secure-file-upload">
-    <img src="https://img.shields.io/badge/%20File%20Scanner-MERN%20|%20Docker%20|%20ClamAV-9C27B0?style=for-the-badge&logo=docker" />
+  <a href="#">
+    <img src="https://img.shields.io/badge/%20EV%20Route%20Optimizer-ReactJS%20|%20n8n%20|%20Gemini%20AI%20|%20Google%20Maps%20API-4CAF50?style=for-the-badge&logo=googlemaps" />
   </a>
   <br>
-  <sub>Secure file upload system with containerized malware scanning using ClamAV.</sub>
+  <sub>
+  Intelligent EV trip planning system that analyzes vehicle data and charging infrastructure to recommend optimized routes. Implemented AI-driven decision workflows using n8n automation and Gemini-powered travel reasoning.
+  </sub>
 </p>
 
-
+---
 ---
 
 ## ⚡ GitHub Stats
@@ -110,10 +117,18 @@
 ---
 
 ## 🎓 Certifications
-
-* ☁️ AWS Academy – Generative AI Foundation | Cloud Foundations
-* 🔒 Cybersecurity – IBM | Fortinet | Cisco | Microsoft
-* 🐍 Programming – Cisco Python Essentials | NASAB DevSecOps
+* **Cloud & AI Engineering**
+  * AWS Academy – Cloud Foundations
+  * AWS Academy – Generative AI Foundations
+  * Microsoft Security Copilot
+* **Cybersecurity & Infrastructure**
+  * IBM Cybersecurity Fundamentals
+  * Cisco Introduction to Cybersecurity
+  * Microsoft Cybersecurity Career Essentials
+* **Software Engineering & DevOps**
+  * NASBA DevOps Foundations (DevSecOps)
+  * Cisco Python Essentials
+  * Python Automation & Tool Development 
 
 ---
 
