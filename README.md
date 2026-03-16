@@ -33,7 +33,7 @@
 ## 💡 Featured Projects  
 
 <p align="center">
-  <a href="#">
+  <a href="https://github.com/Nithinbharathi93/rag-incident-responder">
     <img src="https://img.shields.io/badge/%20Ops--Sentinel%20(AI%20Incident%20Responder)-Node.js%20|%20Redis%20|%20Supabase%20pgvector%20|%20Llama%203-FF4B4B?style=for-the-badge&logo=redis" />
   </a>
   <br>
@@ -43,7 +43,7 @@
 </p>
 
 <p align="center">
-  <a href="#">
+  <a href="https://github.com/Nithinbharathi93/zentellect">
     <img src="https://img.shields.io/badge/%20Zentellect%20(AI%20EdTech%20SaaS)-React%2019%20|%20Fastify%20|%20LangChain%20|%20Llama%203%20|%20Supabase-8A2BE2?style=for-the-badge&logo=openai" />
   </a>
   <br>
@@ -53,7 +53,7 @@
 </p>
 
 <p align="center">
-  <a href="#">
+  <a href="https://github.com/Nithinbharathi93/Study-Sync-AI">
     <img src="https://img.shields.io/badge/%20Study%20Sync%20AI-ReactJS%20|%20Node.js%20|%20Gemini%20AI%20|%20PostgreSQL-36BCF7?style=for-the-badge&logo=google" />
   </a>
   <br>
@@ -63,7 +63,7 @@
 </p>
 
 <p align="center">
-  <a href="#">
+  <a href="https://github.com/Nithinbharathi93/SustainableEV">
     <img src="https://img.shields.io/badge/%20EV%20Route%20Optimizer-ReactJS%20|%20n8n%20|%20Gemini%20AI%20|%20Google%20Maps%20API-4CAF50?style=for-the-badge&logo=googlemaps" />
   </a>
   <br>
