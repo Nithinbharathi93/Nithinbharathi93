@@ -117,6 +117,28 @@
 ---
 
 ## 🎓 Certifications
+
+## 🎓 Certifications & Badges
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.credly.com/badges/a2740beb-1eee-48cf-91a9-c99b6a2e2f6f/public_url">
+        <img src="./public/aws-academy-graduate-machine-learning-for-natural.png" width="100px;" alt="Certification 1"/><br />
+        <sub><b>AWS Academy Graduate - Machine Learning for Natural Language Processing</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/96fc4146-ca94-4ea4-8716-c46cfabe7dc8/public_url">
+        <img src="./public/aws-academy-graduate-cloud-foundations-training-bad.png" width="100px;" alt="Certification 2"/><br />
+        <sub><b>AWS Academy Graduate - Cloud Foundations</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/><br/>
+
 * **Cloud & AI Engineering**
   * AWS Academy – Cloud Foundations
   * AWS Academy – Generative AI Foundations
