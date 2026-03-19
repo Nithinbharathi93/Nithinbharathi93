@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 About Me
+## 🚀 About Me  
 
 ```yaml
 🧠 Aspiring System Design Engineer: Focused on designing scalable, high-availability backend systems and distributed architectures.
@@ -16,7 +16,7 @@
 🔐 Security-First Developer: Background in penetration testing, vulnerability assessment, and secure system design.
 🚀 DevOps & Deployment: Experienced with Docker, CI/CD pipelines, cloud deployments, and automated workflows.
 🎯 Open Source Engineer: Maintains multiple production-ready repositories with a focus on scalable backend architecture.
-```
+``` 
 
 ---
 
@@ -30,7 +30,7 @@
 
 ---
 
-## 💡 Featured Projects
+## 💡 Featured Projects  
 
 <p align="center">
   <a href="https://github.com/nithinbharathi-t/rag-incident-responder">
@@ -73,7 +73,6 @@
 </p>
 
 ---
-
 ---
 
 ## ⚡ GitHub Stats
@@ -89,129 +88,101 @@
 
 🛠️ **Techsnapie Solutions – Coimbatore**
 
-- 🚀 _Development Team Lead_ (Nov 2024 – Jul 2025)
+* 🚀 *Development Team Lead* (Nov 2024 – Jul 2025)
   ▸ Led a 6-member team delivering RESTful APIs for enterprise projects
   ▸ Improved backend response time by **20%** using optimized API design
-- 🛡️ _Penetration Tester_ (Aug 2024 – Oct 2024)
+* 🛡️ *Penetration Tester* (Aug 2024 – Oct 2024)
   ▸ Identified and mitigated **15+ client-side security vulnerabilities**
-- 💻 _Web Developer_ (May 2023 – Jul 2024)
+* 💻 *Web Developer* (May 2023 – Jul 2024)
   ▸ Delivered **7+ client solutions**, improving performance by **30%**
 
 ---
 
-🔐 **IBM & Edunet Foundation Internship** _(Jan – Feb 2025)_
+🔐 **IBM & Edunet Foundation Internship** *(Jan – Feb 2025)*
 
-- Completed **40+ hours** of hands-on cybersecurity labs
-- Worked on incident response, IT risk management, and threat mitigation
+* Completed **40+ hours** of hands-on cybersecurity labs
+* Worked on incident response, IT risk management, and threat mitigation
 
 ---
 
 🎯 **Hackathons & Leadership**
 
-- 🏆 Smart India Hackathon – Campus Finalist
-- 🏅 SAP Hackathon – Level-2 Qualifier
-- 🚀 NASA Space App Challenge Participant
-- 🕹️ Organized **CTF competitions**
-- 👨‍🏫 Mentored **250+ students**
-- 📈 GitHub **C+ Rank Contributor**
+* 🏆 Smart India Hackathon – Campus Finalist
+* 🏅 SAP Hackathon – Level-2 Qualifier
+* 🚀 NASA Space App Challenge Participant
+* 🕹️ Organized **CTF competitions**
+* 👨‍🏫 Mentored **250+ students**
+* 📈 GitHub **C+ Rank Contributor**
 
 ---
 
-## 🎓 Certifications & Digital Credentials
+## Certifications & Digital Credentials
 
 <div align="center">
-
-<table border="0" cellspacing="20">
-<tr>
-
-<td align="center" width="260" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.credly.com/badges/a2740beb-1eee-48cf-91a9-c99b6a2e2f6f/public_url">
-<img src="assets/aws-academy-graduate-machine-learning-for-natural.png" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">AWS Academy</span><br>
-<span style="color:#8b949e; font-size:13px;">ML for NLP</span>
-</a>
-</td>
-
-<td align="center" width="260" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.credly.com/badges/96fc4146-ca94-4ea4-8716-c46cfabe7dc8/public_url">
-<img src="assets/aws-academy-graduate-cloud-foundations-training-bad.png" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">AWS Academy</span><br>
-<span style="color:#8b949e; font-size:13px;">Cloud Foundations</span>
-</a>
-</td>
-
-<td align="center" width="260" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.credly.com/badges/94ebce21-a12a-4a10-8788-c49aa0485a0d/public_url">
-<img src="assets/aws-academy-graduate-generative-ai-foundations-trai.png" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">AWS Academy</span><br>
-<span style="color:#8b949e; font-size:13px;">Generative AI</span>
-</a>
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.credly.com/badges/f9e6b24c-ed4d-414e-bdac-622e4c7c8de4/public_url">
-<img src="assets/fortinet-certified-associate-cybersecurity.1.png" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">Fortinet</span><br>
-<span style="color:#8b949e; font-size:13px;">Cyber Associate</span>
-</a>
-</td>
-
-<td align="center" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.credly.com/badges/08629b70-c1b1-4919-8371-3cd2b93ef574/public_url">
-<img src="assets/cybersecurity-fundamentals.png" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">IBM SkillsBuild</span><br>
-<span style="color:#8b949e; font-size:13px;">Security Fundamentals</span>
-</a>
-</td>
-
-<td align="center" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.credly.com/badges/c1db9857-af51-4936-87b4-b372da03543a/public_url">
-<img src="assets/introduction-to-cybersecurity.png" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">Cisco NetAcad</span><br>
-<span style="color:#8b949e; font-size:13px;">Intro to Cyber</span>
-</a>
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.linkedin.com/learning/certificates/83811e18ba71aa9314e97ba0e597ea90f8b9761b05c482992896d9ee637bb1f0">
-<img src="assets/career-essentials-in-cybersecurity-by-microsoft-and-linkedIn.jpg" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">Microsoft</span><br>
-<span style="color:#8b949e; font-size:13px;">Career Essentials</span>
-</a>
-</td>
-
-<td align="center" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.linkedin.com/learning/certificates/61463d940f6820796ee7cc821e806f8acf276b631f68994fa0372b6eae82c24e">
-<img src="assets/microsoft-security-copilot.jpg" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">LinkedIn</span><br>
-<span style="color:#8b949e; font-size:13px;">Security Copilot</span>
-</a>
-</td>
-
-<td align="center" style="background-color:#0d1117; border-radius:12px; padding:20px; border:1px solid #30363d;">
-<a href="https://www.linkedin.com/learning/certificates/e4d5e44ac8e2d8b9bdd38328577823418c3e546533d5d452350d930248b7eaf4">
-<img src="assets/DevOps-foundations-DevSecOps.jpg" width="110"/><br><br>
-<span style="color:#f0f6fc; font-weight:600;">NASBA</span><br>
-<span style="color:#8b949e; font-size:13px;">DevSecOps Foundations</span>
-</a>
-</td>
-
-</tr>
-
-</table>
-
+  <table border="0">
+    <tr>
+      <td align="center" width="200">
+        <a href="https://www.credly.com/badges/a2740beb-1eee-48cf-91a9-c99b6a2e2f6f/public_url">
+          <img src="assets/aws-academy-graduate-machine-learning-for-natural.png" height="120" alt="AWS NLP"/>
+          <br /><strong>AWS Academy</strong><br /><sub>ML for NLP</sub>
+        </a>
+      </td>
+      <td align="center" width="200">
+        <a href="https://www.credly.com/badges/96fc4146-ca94-4ea4-8716-c46cfabe7dc8/public_url">
+          <img src="assets/aws-academy-graduate-cloud-foundations-training-bad.png" height="120" alt="AWS Cloud"/>
+          <br /><strong>AWS Academy</strong><br /><sub>Cloud Foundations</sub>
+        </a>
+      </td>
+      <td align="center" width="200">
+        <a href="https://www.credly.com/badges/94ebce21-a12a-4a10-8788-c49aa0485a0d/public_url">
+          <img src="assets/aws-academy-graduate-generative-ai-foundations-trai.png" height="120" alt="AWS GenAI"/>
+          <br /><strong>AWS Academy</strong><br /><sub>Generative AI</sub>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="200">
+        <a href="https://www.credly.com/badges/f9e6b24c-ed4d-414e-bdac-622e4c7c8de4/public_url">
+          <img src="assets/fortinet-certified-associate-cybersecurity.1.png" height="120" alt="Fortinet"/>
+          <br /><strong>Fortinet</strong><br /><sub>Cyber Associate</sub>
+        </a>
+      </td>
+      <td align="center" width="200">
+        <a href="https://www.credly.com/badges/08629b70-c1b1-4919-8371-3cd2b93ef574/public_url">
+          <img src="assets/cybersecurity-fundamentals.png" height="120" alt="IBM"/>
+          <br /><strong>IBM SkillsBuild</strong><br /><sub>Security Fundamentals</sub>
+        </a>
+      </td>
+      <td align="center" width="200">
+        <a href="https://www.credly.com/badges/c1db9857-af51-4936-87b4-b372da03543a/public_url">
+          <img src="assets/introduction-to-cybersecurity.png" height="120" alt="Cisco"/>
+          <br /><strong>Cisco NetAcad</strong><br /><sub>Intro to Cyber</sub>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="200">
+        <a href="https://www.linkedin.com/learning/certificates/83811e18ba71aa9314e97ba0e597ea90f8b9761b05c482992896d9ee637bb1f0">
+          <img src="assets/career-essentials-in-cybersecurity-by-microsoft-and-linkedIn.jpg" height="120" alt="Microsoft"/>
+          <br /><strong>Microsoft</strong><br /><sub>Career Essentials</sub>
+        </a>
+      </td>
+      <td align="center" width="200">
+        <a href="https://www.linkedin.com/learning/certificates/61463d940f6820796ee7cc821e806f8acf276b631f68994fa0372b6eae82c24e">
+          <img src="assets/microsoft-security-copilot.jpg" height="120" alt="Copilot"/>
+          <br /><strong>LinkedIn</strong><br /><sub>Security Copilot</sub>
+        </a>
+      </td>
+      <td align="center" width="200">
+        <a href="https://www.linkedin.com/learning/certificates/e4d5e44ac8e2d8b9bdd38328577823418c3e546533d5d452350d930248b7eaf4">
+          <img src="assets/DevOps-foundations-DevSecOps.jpg" height="120" alt="DevSecOps"/>
+          <br /><strong>NASBA</strong><br /><sub>DevSecOps Foundations</sub>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
-
 ---
-
 
 ## 🤝 Let's Connect
 
@@ -232,3 +203,4 @@
 ---
 
 🎯 **"Build secure systems. Ship real products. Leave clean commits."**
+
