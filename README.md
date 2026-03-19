@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Nithinbharathi..! 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&width=500&lines=Software+Development+Engineer;Full+Stack+Developer;Backend+API+Engineer;Cybersecurity+Enthusiast;Open+Source+Contributor!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&width=500&lines=Software+Development+Engineer;MERN+Stack+Developer;System+Design+Enthusiast;Open+Source+Contributor!" />
 </p>
 
 ---
@@ -33,7 +33,7 @@
 ## 💡 Featured Projects  
 
 <p align="center">
-  <a href="https://github.com/Nithinbharathi93/rag-incident-responder">
+  <a href="https://github.com/nithinbharathi-t/rag-incident-responder">
     <img src="https://img.shields.io/badge/%20Ops--Sentinel%20(AI%20Incident%20Responder)-Node.js%20|%20Redis%20|%20Supabase%20pgvector%20|%20Llama%203-FF4B4B?style=for-the-badge&logo=redis" />
   </a>
   <br>
@@ -43,7 +43,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nithinbharathi93/zentellect">
+  <a href="https://github.com/nithinbharathi-t/zentellect">
     <img src="https://img.shields.io/badge/%20Zentellect%20(AI%20EdTech%20SaaS)-React%2019%20|%20Fastify%20|%20LangChain%20|%20Llama%203%20|%20Supabase-8A2BE2?style=for-the-badge&logo=openai" />
   </a>
   <br>
@@ -53,7 +53,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nithinbharathi93/Study-Sync-AI">
+  <a href="https://github.com/nithinbharathi-t/Study-Sync-AI">
     <img src="https://img.shields.io/badge/%20Study%20Sync%20AI-ReactJS%20|%20Node.js%20|%20Gemini%20AI%20|%20PostgreSQL-36BCF7?style=for-the-badge&logo=google" />
   </a>
   <br>
@@ -63,7 +63,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Nithinbharathi93/SustainableEV">
+  <a href="https://github.com/nithinbharathi-t/SustainableEV">
     <img src="https://img.shields.io/badge/%20EV%20Route%20Optimizer-ReactJS%20|%20n8n%20|%20Gemini%20AI%20|%20Google%20Maps%20API-4CAF50?style=for-the-badge&logo=googlemaps" />
   </a>
   <br>
@@ -78,8 +78,8 @@
 ## ⚡ GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nithinbharathi93&show_icons=true&theme=react" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nithinbharathi93&theme=react" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=nithinbharathi-t&show_icons=true&theme=vision-friendly-dark&commits_year=2026" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=nithinbharathi-t&theme=vision-friendly-dark" height="160"/>
 </p>
 
 ---
@@ -143,7 +143,7 @@
     <img src="https://skillicons.dev/icons?i=gmail" width="30" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Nithinbharathi93" target="_blank">
+  <a href="https://github.com/nithinbharathi-t" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" width="30" />
   </a>
 </p>
