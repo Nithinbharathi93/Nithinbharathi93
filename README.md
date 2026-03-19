@@ -125,32 +125,63 @@
     <td align="center">
       <a href="https://www.credly.com/badges/a2740beb-1eee-48cf-91a9-c99b6a2e2f6f/public_url">
         <img src="./public/aws-academy-graduate-machine-learning-for-natural.png" width="100px;" alt="Certification 1"/><br />
-        <sub><b>AWS Academy Graduate - Machine Learning for Natural Language Processing</b></sub>
+        <sub><b>AWS Academy Graduate<br/>Machine Learning for NLP</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://www.credly.com/badges/96fc4146-ca94-4ea4-8716-c46cfabe7dc8/public_url">
         <img src="./public/aws-academy-graduate-cloud-foundations-training-bad.png" width="100px;" alt="Certification 2"/><br />
-        <sub><b>AWS Academy Graduate - Cloud Foundations</b></sub>
+        <sub><b>AWS Academy Graduate<br/>Cloud Foundations</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/94ebce21-a12a-4a10-8788-c49aa0485a0d/public_url">
+        <img src="./public/aws-academy-graduate-generative-ai-foundations-trai.png" width="100px;" alt="Certification 3"/><br />
+        <sub><b>AWS Academy Graduate<br/>Generative AI Foundations</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.credly.com/badges/f9e6b24c-ed4d-414e-bdac-622e4c7c8de4/public_url">
+        <img src="./public/fortinet-certified-associate-cybersecurity.1.png" width="100px;" alt="Certification 4"/><br />
+        <sub><b>Fortinet Certified <br/>Associate Cybersecurity</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/08629b70-c1b1-4919-8371-3cd2b93ef574/public_url">
+        <img src="./public/cybersecurity-fundamentals.png" width="100px;" alt="Certification 5"/><br />
+        <sub><b>IBM Skill Build<br/>Cybersecurity Fundamentals</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/c1db9857-af51-4936-87b4-b372da03543a/public_url">
+        <img src="./public/introduction-to-cybersecurity.png" width="100px;" alt="Certification 6"/><br />
+        <sub><b>Cisco NetAcad<br/>Introduction to Cybersecurity</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/learning/certificates/83811e18ba71aa9314e97ba0e597ea90f8b9761b05c482992896d9ee637bb1f0?trk=share_certificate">
+        <img src="./public/career-essentials-in-cybersecurity-by-microsoft-and-linkedIn.jpg" width="100px;" alt="Certification 7"/><br />
+        <sub><b>Microsoft & LinkedIn Certified <br/>Cybersecurity Career Essentials</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/learning/certificates/61463d940f6820796ee7cc821e806f8acf276b631f68994fa0372b6eae82c24e?trk=share_certificate">
+        <img src="./public/microsoft-security-copilot.jpg" width="100px;" alt="Certification 8"/><br />
+        <sub><b>LinkedIn Certified<br/>Microsoft Security Copilot</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/learning/certificates/e4d5e44ac8e2d8b9bdd38328577823418c3e546533d5d452350d930248b7eaf4?trk=share_certificate">
+        <img src="./public/DevOps-foundations-DevSecOps.jpg" width="100px;" alt="Certification 9"/><br />
+        <sub><b>NASBA Certified<br/>DevOps Foundations (DevSecOps)</b></sub>
       </a>
     </td>
   </tr>
 </table>
-
-<br/><br/>
-
-* **Cloud & AI Engineering**
-  * AWS Academy – Cloud Foundations
-  * AWS Academy – Generative AI Foundations
-  * Microsoft Security Copilot
-* **Cybersecurity & Infrastructure**
-  * IBM Cybersecurity Fundamentals
-  * Cisco Introduction to Cybersecurity
-  * Microsoft Cybersecurity Career Essentials
-* **Software Engineering & DevOps**
-  * NASBA DevOps Foundations (DevSecOps)
-  * Cisco Python Essentials
-  * Python Automation & Tool Development 
 
 ---
 
