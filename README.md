@@ -123,19 +123,19 @@
     <tr>
       <td align="center" width="200">
         <a href="https://www.credly.com/badges/a2740beb-1eee-48cf-91a9-c99b6a2e2f6f/public_url">
-          <img src="public/aws-academy-graduate-machine-learning-for-natural.png" height="120" alt="AWS NLP"/>
+          <img src="assets/aws-academy-graduate-machine-learning-for-natural.png" height="120" alt="AWS NLP"/>
           <br /><strong>AWS Academy</strong><br /><sub>ML for NLP</sub>
         </a>
       </td>
       <td align="center" width="200">
         <a href="https://www.credly.com/badges/96fc4146-ca94-4ea4-8716-c46cfabe7dc8/public_url">
-          <img src="public/aws-academy-graduate-cloud-foundations-training-bad.png" height="120" alt="AWS Cloud"/>
+          <img src="assets/aws-academy-graduate-cloud-foundations-training-bad.png" height="120" alt="AWS Cloud"/>
           <br /><strong>AWS Academy</strong><br /><sub>Cloud Foundations</sub>
         </a>
       </td>
       <td align="center" width="200">
         <a href="https://www.credly.com/badges/94ebce21-a12a-4a10-8788-c49aa0485a0d/public_url">
-          <img src="public/aws-academy-graduate-generative-ai-foundations-trai.png" height="120" alt="AWS GenAI"/>
+          <img src="assets/aws-academy-graduate-generative-ai-foundations-trai.png" height="120" alt="AWS GenAI"/>
           <br /><strong>AWS Academy</strong><br /><sub>Generative AI</sub>
         </a>
       </td>
@@ -143,19 +143,19 @@
     <tr>
       <td align="center" width="200">
         <a href="https://www.credly.com/badges/f9e6b24c-ed4d-414e-bdac-622e4c7c8de4/public_url">
-          <img src="public/fortinet-certified-associate-cybersecurity.1.png" height="120" alt="Fortinet"/>
+          <img src="assets/fortinet-certified-associate-cybersecurity.1.png" height="120" alt="Fortinet"/>
           <br /><strong>Fortinet</strong><br /><sub>Cyber Associate</sub>
         </a>
       </td>
       <td align="center" width="200">
         <a href="https://www.credly.com/badges/08629b70-c1b1-4919-8371-3cd2b93ef574/public_url">
-          <img src="public/cybersecurity-fundamentals.png" height="120" alt="IBM"/>
+          <img src="assets/cybersecurity-fundamentals.png" height="120" alt="IBM"/>
           <br /><strong>IBM SkillsBuild</strong><br /><sub>Security Fundamentals</sub>
         </a>
       </td>
       <td align="center" width="200">
         <a href="https://www.credly.com/badges/c1db9857-af51-4936-87b4-b372da03543a/public_url">
-          <img src="public/introduction-to-cybersecurity.png" height="120" alt="Cisco"/>
+          <img src="assets/introduction-to-cybersecurity.png" height="120" alt="Cisco"/>
           <br /><strong>Cisco NetAcad</strong><br /><sub>Intro to Cyber</sub>
         </a>
       </td>
@@ -163,19 +163,19 @@
     <tr>
       <td align="center" width="200">
         <a href="https://www.linkedin.com/learning/certificates/83811e18ba71aa9314e97ba0e597ea90f8b9761b05c482992896d9ee637bb1f0">
-          <img src="public/career-essentials-in-cybersecurity-by-microsoft-and-linkedIn.jpg" height="120" alt="Microsoft"/>
+          <img src="assets/career-essentials-in-cybersecurity-by-microsoft-and-linkedIn.jpg" height="120" alt="Microsoft"/>
           <br /><strong>Microsoft</strong><br /><sub>Career Essentials</sub>
         </a>
       </td>
       <td align="center" width="200">
         <a href="https://www.linkedin.com/learning/certificates/61463d940f6820796ee7cc821e806f8acf276b631f68994fa0372b6eae82c24e">
-          <img src="public/microsoft-security-copilot.jpg" height="120" alt="Copilot"/>
+          <img src="assets/microsoft-security-copilot.jpg" height="120" alt="Copilot"/>
           <br /><strong>LinkedIn</strong><br /><sub>Security Copilot</sub>
         </a>
       </td>
       <td align="center" width="200">
         <a href="https://www.linkedin.com/learning/certificates/e4d5e44ac8e2d8b9bdd38328577823418c3e546533d5d452350d930248b7eaf4">
-          <img src="public/DevOps-foundations-DevSecOps.jpg" height="120" alt="DevSecOps"/>
+          <img src="assets/DevOps-foundations-DevSecOps.jpg" height="120" alt="DevSecOps"/>
           <br /><strong>NASBA</strong><br /><sub>DevSecOps Foundations</sub>
         </a>
       </td>
