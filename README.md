@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://github-profile-readme-six.vercel.app/api" alt="Nithin's Dynamic Dashboard" width="800" />
+  <img src="https://github-profile-readme-six.vercel.app/api" alt="Nithinbharathi's Dynamic banner" width="800" />
 </p>
 
 ---
