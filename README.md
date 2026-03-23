@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Nithinbharathi..! 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&width=500&lines=Software+Development+Engineer;MERN+Stack+Developer;System+Design+Enthusiast;Open+Source+Contributor!" />
+  <img src="./assets/banner.svg" alt="Nithin's Typing SVG" width="500" />
 </p>
 
 ---
