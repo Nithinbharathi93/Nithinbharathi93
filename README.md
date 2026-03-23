@@ -1,8 +1,6 @@
 <h1 align="center">Hi there, I'm Nithinbharathi..! 👋</h1>
 
-<p align="center">
-  <img src="./assets/banner.svg" alt="Nithin's Typing SVG" width="500" height="375" />
-</p>
+![Banner](./assets/banner.svg)
 
 ---
 
