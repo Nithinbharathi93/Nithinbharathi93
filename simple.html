@@ -1,265 +1,215 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="skills-lens-container">
   <style>
     :root {
-      --bg-dark: #0d1117;
-      --bg-header: #161b22;
-      --border-color: #30363d;
-      --text-main: #ffffff;
-      --text-dim: #8b949e;
-      --accent-blue: #36BCF7;
-      --accent-purple: #8957e5;
-      --accent-green: #3fb950;
+      --bg: #0d1117;
+      --border: #30363d;
+      --text-main: #c9d1d9;
+      --accent: #36BCF7;
+      --lens-bg: rgba(54, 188, 247, 0.08);
     }
 
-    body {
-      margin: 0;
-      padding: 0;
-      background: transparent;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: screen;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    }
-
-    /* Main Container */
-    .dashboard {
-      width: 800px;
-      height: 400px;
-      background-color: var(--bg-dark);
-      border: 1px solid var(--border-color);
+    .skills-lens-container {
+      background-color: var(--bg);
+      font-family: 'SFMono-Regular', Consolas, monospace;
+      padding: 20px;
       border-radius: 12px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      border: 1px solid var(--border);
+      max-width: 850px;
     }
 
-    /* Top Bar */
-    .header {
-      background-color: var(--bg-header);
-      padding: 16px 24px;
-      border-bottom: 1px solid var(--border-color);
+    .skill-row {
       display: flex;
-      justify-content: space-x-2;
+      align-items: center;
+      height: 60px;
+      border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* 🔥 CATEGORY = SAME WEIGHT AS FOCUSED ITEM */
+    .category-label {
+      width: 220px;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      padding-right: 15px;
+      display: flex;
       align-items: center;
     }
 
-    .window-controls {
-      display: flex;
-      gap: 8px;
-    }
-
-    .dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-    }
-
-    .dot.red { background: #ff5f56; }
-    .dot.yellow { background: #ffbd2e; }
-    .dot.green { background: #27c93f; }
-
-    .filename {
-      color: var(--text-dim);
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 12px;
-      margin-left: 16px;
+    .lens-viewport {
       flex-grow: 1;
-    }
-
-    .header-tag {
-      color: var(--accent-blue);
-      font-weight: bold;
-      font-size: 14px;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
-
-    /* Content Area */
-    .main-content {
-      display: flex;
-      flex: 1;
-      padding: 32px;
-    }
-
-    .left-col {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .right-col {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-    }
-
-    h1 {
-      font-size: 36px;
-      font-weight: 800;
-      color: var(--text-main);
-      margin: 0 0 8px 0;
-    }
-
-    .highlight {
-      color: var(--accent-blue);
-    }
-
-    .terminal-text {
-      color: var(--text-dim);
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 24px;
-    }
-
-    /* Skill Tags */
-    .badge-container {
-      display: flex;
-      gap: 12px;
-    }
-
-    .badge {
-      padding: 4px 12px;
-      border-radius: 9999px;
-      font-size: 10px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .badge-mern { background: rgba(35, 134, 54, 0.15); border: 1px solid var(--accent-green); color: var(--accent-green); }
-    .badge-sec { background: rgba(31, 111, 235, 0.15); border: 1px solid #58a6ff; color: #58a6ff; }
-    .badge-ai { background: rgba(137, 87, 229, 0.15); border: 1px solid var(--accent-purple); color: var(--accent-purple); }
-
-    /* Visual Element */
-    .grid-bg {
-      position: absolute;
-      inset: 0;
-      opacity: 0.1;
-      background-image: radial-gradient(var(--accent-blue) 1px, transparent 1px);
-      background-size: 20px 20px;
-    }
-
-    .stats-card {
-      z-index: 10;
-      background: var(--bg-header);
-      border: 1px solid var(--accent-blue);
-      padding: 24px;
-      border-radius: 8px;
-      transform: rotate(2deg);
-      box-shadow: 0 0 20px rgba(54, 188, 247, 0.2);
-    }
-
-    .card-title {
-      color: var(--accent-blue);
-      font-size: 12px;
-      font-family: monospace;
-      margin-bottom: 8px;
-    }
-
-    .progress-bar {
-      height: 8px;
-      background: #30363d;
-      border-radius: 999px;
       overflow: hidden;
-      margin-bottom: 8px;
-    }
-
-    .progress-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
-    }
-
-    /* Animations */
-    @keyframes pulse-slow {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.5; }
-    }
-
-    .status-indicator {
-      margin-top: 16px;
+      position: relative;
       display: flex;
       align-items: center;
-      color: var(--accent-green);
-      font-size: 10px;
-      font-family: monospace;
-      animation: pulse-slow 3s ease-in-out infinite;
+      mask-image: linear-gradient(to right, transparent, black 35%, black 65%, transparent);
     }
 
-    .status-indicator span { margin-right: 8px; }
-
-    /* Footer */
-    .footer {
-      background: var(--bg-dark);
-      padding: 8px 24px;
-      border-top: 1px solid var(--border-color);
+    .marquee-track {
       display: flex;
-      justify-content: space-between;
-      color: var(--text-dim);
-      font-family: monospace;
-      font-size: 10px;
+      gap: 50px;
+      padding-left: 50%;
+      white-space: nowrap;
+      will-change: transform;
+    }
+
+    /* 🧠 BASE STATE (VISIBLE BUT SUBTLE) */
+    .skill-item {
+      font-size: 16px;
+      color: #8b949e;
+      opacity: 0.55;
+      transform: scale(0.9);
+      transition: transform 0.15s linear, opacity 0.15s linear;
+      text-transform: capitalize;
+    }
+
+    /* 🎯 LENS */
+    .focal-point {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: 36px;
+      border: 1px solid var(--accent);
+      background: var(--lens-bg);
+      border-radius: 6px;
+      pointer-events: none;
+      z-index: 10;
+      box-shadow: 0 0 20px rgba(54,188,247,0.2);
+    }
+
+    .skill-row:hover .marquee-track {
+      animation-play-state: paused;
     }
   </style>
-</head>
-<body>
 
-  <div class="dashboard">
-    <div class="header">
-      <div class="window-controls">
-        <div class="dot red"></div>
-        <div class="dot yellow"></div>
-        <div class="dot green"></div>
+  <!-- ROW -->
+  <div class="skill-row">
+    <div class="category-label">System Design</div>
+    <div class="focal-point"></div>
+    <div class="lens-viewport">
+      <div class="marquee-track">
+        <span class="skill-item">Distributed Architectures</span>
+        <span class="skill-item">High Availability Systems</span>
+        <span class="skill-item">Scalable Backend Design</span>
+        <span class="skill-item">Load Balancing</span>
+        <span class="skill-item">Microservices</span>
       </div>
-      <span class="filename">nithinbharathi.sh</span>
-      <div class="header-tag">System Design // AI // Security</div>
-    </div>
-
-    <div class="main-content">
-      <div class="left-col">
-        <h1>Nithin<span class="highlight">bharathi</span></h1>
-        <div class="terminal-text">
-          &gt; final_year_be_cs_student <br>
-          &gt; focus: high_availability_systems <br>
-          &gt; status: building_ai_agents
-        </div>
-        
-        <div class="badge-container">
-          <span class="badge badge-mern">MERN Stack</span>
-          <span class="badge badge-sec">Pentesting</span>
-          <span class="badge badge-ai">RAG / LLM</span>
-        </div>
-      </div>
-
-      <div class="right-col">
-        <div class="grid-bg"></div>
-        <div class="stats-card">
-          <div class="card-title">// Core Pipeline</div>
-          <div class="progress-bar" style="width: 200px;"><div class="progress-fill" style="width: 92%;"></div></div>
-          <div class="progress-bar" style="width: 160px;"><div class="progress-fill" style="width: 85%;"></div></div>
-          <div class="progress-bar" style="width: 180px;"><div class="progress-fill" style="width: 78%;"></div></div>
-          
-          <div class="status-indicator">
-            <span>●</span> LIVE_COMMIT_MODE: ACTIVE
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <span>UTF-8 // TypeScript // Python</span>
-      <span>UTF-8 // Node.js // PostgreSQL</span>
     </div>
   </div>
 
-</body>
-</html>
+  <div class="skill-row">
+    <div class="category-label">Backend & Infra</div>
+    <div class="focal-point"></div>
+    <div class="lens-viewport">
+      <div class="marquee-track">
+        <span class="skill-item">Production APIs</span>
+        <span class="skill-item">Node.js</span>
+        <span class="skill-item">Fastify / Flask</span>
+        <span class="skill-item">Data Pipelines</span>
+        <span class="skill-item">Redis Caching</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-row">
+    <div class="category-label">AI Systems</div>
+    <div class="focal-point"></div>
+    <div class="lens-viewport">
+      <div class="marquee-track">
+        <span class="skill-item">RAG Platforms</span>
+        <span class="skill-item">LLM Orchestration</span>
+        <span class="skill-item">LangChain</span>
+        <span class="skill-item">Vector Databases</span>
+        <span class="skill-item">AI Agents</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+
+<script>
+function initMarqueeSpeed() {
+  document.querySelectorAll(".marquee-track").forEach(track => {
+    const width = track.scrollWidth;
+    const speed = 80;
+    const duration = width / speed;
+
+    track.style.animation = `scroll linear infinite`;
+    track.style.animationDuration = duration + "s";
+  });
+}
+
+function updateLensEffect() {
+  document.querySelectorAll(".skill-row").forEach(row => {
+    const lens = row.querySelector(".focal-point");
+    const items = row.querySelectorAll(".skill-item");
+
+    const lensRect = lens.getBoundingClientRect();
+    const center = lensRect.left + lensRect.width / 2;
+
+    let maxFocus = 0;
+
+    items.forEach(item => {
+      const rect = item.getBoundingClientRect();
+      const itemCenter = rect.left + rect.width / 2;
+
+      const distance = Math.abs(center - itemCenter);
+      const maxDist = 180;
+
+      let focus = 1 - (distance / maxDist);
+      focus = Math.max(0, focus);
+
+      maxFocus = Math.max(maxFocus, focus);
+
+      /* 🔥 SMOOTH VISUALS */
+      const scale = 0.9 + (0.5 * focus);
+      const opacity = 0.45 + (0.55 * focus);
+
+      item.style.transform = `scale(${scale})`;
+      item.style.opacity = opacity;
+
+      /* 🎯 COLOR + WEIGHT ONLY (NO CASE CHANGE) */
+      if (focus > 0.6) {
+        item.style.color = "#36BCF7";
+        item.style.fontWeight = "700";
+      } else {
+        item.style.color = "#8b949e";
+        item.style.fontWeight = "400";
+      }
+    });
+
+    /* 🔥 DYNAMIC LENS SIZE */
+    const minWidth = 140;
+    const maxWidth = 260;
+
+    const targetWidth = minWidth + (maxWidth - minWidth) * maxFocus;
+
+    const currentWidth = lens.offsetWidth;
+    const smoothWidth = currentWidth + (targetWidth - currentWidth) * 0.15;
+
+    lens.style.width = smoothWidth + "px";
+  });
+
+  requestAnimationFrame(updateLensEffect);
+}
+
+/* KEYFRAMES */
+const styleSheet = document.createElement("style");
+styleSheet.innerHTML = `
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}`;
+document.head.appendChild(styleSheet);
+
+initMarqueeSpeed();
+updateLensEffect();
+</script>
+</div>
+
