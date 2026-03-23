@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-readme-six.vercel.app/certs" alt="Certifications" width="100%" height="50%"/>
+  <img src="https://github-profile-readme-six.vercel.app/certs" alt="Certifications" width="100%"/>
 </p>
 
 ---
