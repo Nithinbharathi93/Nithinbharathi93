@@ -1,6 +1,9 @@
 <h1 align="center">Hi there, I'm Nithinbharathi..! 👋</h1>
 
-![Banner](./assets/banner.svg)
+
+<p align="center">
+  <img src="https://github-profile-readme-six.vercel.app/api" alt="Nithin's Dynamic Dashboard" width="800" />
+</p>
 
 ---
 

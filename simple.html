@@ -1,167 +1,265 @@
-export default async function handler(req, res) {
-  // Extract dynamic data if needed (optional)
-  const { name = "Nithin", highlight = "bharathi" } = req.query;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg-dark: #0d1117;
+      --bg-header: #161b22;
+      --border-color: #30363d;
+      --text-main: #ffffff;
+      --text-dim: #8b949e;
+      --accent-blue: #36BCF7;
+      --accent-purple: #8957e5;
+      --accent-green: #3fb950;
+    }
 
-  const svg = `
-    <svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-          <style>
-            :root {
-              --bg-dark: #0d1117;
-              --bg-header: #161b22;
-              --border-color: #30363d;
-              --text-main: #ffffff;
-              --text-dim: #8b949e;
-              --accent-blue: #36BCF7;
-              --accent-purple: #8957e5;
-              --accent-green: #3fb950;
-            }
+    body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: screen;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
 
-            .dashboard {
-              width: 798px; /* Offset for border */
-              height: 398px;
-              background-color: var(--bg-dark);
-              border: 1px solid var(--border-color);
-              border-radius: 12px;
-              overflow: hidden;
-              display: flex;
-              flex-direction: column;
-              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            }
+    /* Main Container */
+    .dashboard {
+      width: 800px;
+      height: 400px;
+      background-color: var(--bg-dark);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
 
-            .header {
-              background-color: var(--bg-header);
-              padding: 16px 24px;
-              border-bottom: 1px solid var(--border-color);
-              display: flex;
-              align-items: center;
-            }
+    /* Top Bar */
+    .header {
+      background-color: var(--bg-header);
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-x-2;
+      align-items: center;
+    }
 
-            .window-controls { display: flex; gap: 8px; }
-            .dot { width: 12px; height: 12px; border-radius: 50%; }
-            .dot.red { background: #ff5f56; }
-            .dot.yellow { background: #ffbd2e; }
-            .dot.green { background: #27c93f; }
+    .window-controls {
+      display: flex;
+      gap: 8px;
+    }
 
-            .filename {
-              color: var(--text-dim);
-              font-family: monospace;
-              font-size: 12px;
-              margin-left: 16px;
-              flex-grow: 1;
-            }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
 
-            .header-tag {
-              color: var(--accent-blue);
-              font-weight: bold;
-              font-size: 12px;
-              letter-spacing: 0.1em;
-              text-transform: uppercase;
-            }
+    .dot.red { background: #ff5f56; }
+    .dot.yellow { background: #ffbd2e; }
+    .dot.green { background: #27c93f; }
 
-            .main-content { display: flex; flex: 1; padding: 32px; }
-            .left-col { width: 50%; display: flex; flex-direction: column; justify-content: center; }
-            .right-col { width: 50%; display: flex; align-items: center; justify-content: center; position: relative; }
+    .filename {
+      color: var(--text-dim);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      margin-left: 16px;
+      flex-grow: 1;
+    }
 
-            h1 { font-size: 36px; font-weight: 800; color: var(--text-main); margin: 0; }
-            .highlight { color: var(--accent-blue); }
+    .header-tag {
+      color: var(--accent-blue);
+      font-weight: bold;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
 
-            .terminal-text {
-              color: var(--text-dim);
-              font-family: monospace;
-              font-size: 14px;
-              line-height: 1.6;
-              margin: 16px 0;
-            }
+    /* Content Area */
+    .main-content {
+      display: flex;
+      flex: 1;
+      padding: 32px;
+    }
 
-            .badge-container { display: flex; gap: 8px; }
-            .badge {
-              padding: 4px 10px;
-              border-radius: 999px;
-              font-size: 10px;
-              font-weight: bold;
-              text-transform: uppercase;
-            }
-            .badge-mern { border: 1px solid var(--accent-green); color: var(--accent-green); }
-            .badge-sec { border: 1px solid #58a6ff; color: #58a6ff; }
-            .badge-ai { border: 1px solid var(--accent-purple); color: var(--accent-purple); }
+    .left-col {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-            .stats-card {
-              background: var(--bg-header);
-              border: 1px solid var(--accent-blue);
-              padding: 20px;
-              border-radius: 8px;
-              transform: rotate(2deg);
-            }
+    .right-col {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
 
-            .progress-bar { height: 8px; background: #30363d; border-radius: 99px; margin-bottom: 8px; overflow: hidden; }
-            .progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple)); }
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin: 0 0 8px 0;
+    }
 
-            .status-indicator {
-              margin-top: 12px;
-              color: var(--accent-green);
-              font-size: 10px;
-              font-family: monospace;
-            }
+    .highlight {
+      color: var(--accent-blue);
+    }
 
-            .footer {
-              background: var(--bg-dark);
-              padding: 8px 24px;
-              border-top: 1px solid var(--border-color);
-              display: flex;
-              justify-content: space-between;
-              color: var(--text-dim);
-              font-family: monospace;
-              font-size: 10px;
-            }
-          </style>
+    .terminal-text {
+      color: var(--text-dim);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    /* Skill Tags */
+    .badge-container {
+      display: flex;
+      gap: 12px;
+    }
+
+    .badge {
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .badge-mern { background: rgba(35, 134, 54, 0.15); border: 1px solid var(--accent-green); color: var(--accent-green); }
+    .badge-sec { background: rgba(31, 111, 235, 0.15); border: 1px solid #58a6ff; color: #58a6ff; }
+    .badge-ai { background: rgba(137, 87, 229, 0.15); border: 1px solid var(--accent-purple); color: var(--accent-purple); }
+
+    /* Visual Element */
+    .grid-bg {
+      position: absolute;
+      inset: 0;
+      opacity: 0.1;
+      background-image: radial-gradient(var(--accent-blue) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    .stats-card {
+      z-index: 10;
+      background: var(--bg-header);
+      border: 1px solid var(--accent-blue);
+      padding: 24px;
+      border-radius: 8px;
+      transform: rotate(2deg);
+      box-shadow: 0 0 20px rgba(54, 188, 247, 0.2);
+    }
+
+    .card-title {
+      color: var(--accent-blue);
+      font-size: 12px;
+      font-family: monospace;
+      margin-bottom: 8px;
+    }
+
+    .progress-bar {
+      height: 8px;
+      background: #30363d;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+    }
+
+    /* Animations */
+    @keyframes pulse-slow {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .status-indicator {
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      color: var(--accent-green);
+      font-size: 10px;
+      font-family: monospace;
+      animation: pulse-slow 3s ease-in-out infinite;
+    }
+
+    .status-indicator span { margin-right: 8px; }
+
+    /* Footer */
+    .footer {
+      background: var(--bg-dark);
+      padding: 8px 24px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      color: var(--text-dim);
+      font-family: monospace;
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <div class="header">
+      <div class="window-controls">
+        <div class="dot red"></div>
+        <div class="dot yellow"></div>
+        <div class="dot green"></div>
+      </div>
+      <span class="filename">nithinbharathi.sh</span>
+      <div class="header-tag">System Design // AI // Security</div>
+    </div>
+
+    <div class="main-content">
+      <div class="left-col">
+        <h1>Nithin<span class="highlight">bharathi</span></h1>
+        <div class="terminal-text">
+          &gt; final_year_be_cs_student <br>
+          &gt; focus: high_availability_systems <br>
+          &gt; status: building_ai_agents
+        </div>
+        
+        <div class="badge-container">
+          <span class="badge badge-mern">MERN Stack</span>
+          <span class="badge badge-sec">Pentesting</span>
+          <span class="badge badge-ai">RAG / LLM</span>
+        </div>
+      </div>
+
+      <div class="right-col">
+        <div class="grid-bg"></div>
+        <div class="stats-card">
+          <div class="card-title">// Core Pipeline</div>
+          <div class="progress-bar" style="width: 200px;"><div class="progress-fill" style="width: 92%;"></div></div>
+          <div class="progress-bar" style="width: 160px;"><div class="progress-fill" style="width: 85%;"></div></div>
+          <div class="progress-bar" style="width: 180px;"><div class="progress-fill" style="width: 78%;"></div></div>
           
-          <div class="dashboard">
-            <div class="header">
-              <div class="window-controls">
-                <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
-              </div>
-              <span class="filename">nithinbharathi.sh</span>
-              <div class="header-tag">Design // AI // Security</div>
-            </div>
-
-            <div class="main-content">
-              <div class="left-col">
-                <h1>${name}<span class="highlight">${highlight}</span></h1>
-                <div class="terminal-text">
-                  &gt; final_year_be_cs_student <br/>
-                  &gt; focus: high_availability_systems <br/>
-                  &gt; status: building_ai_agents
-                </div>
-                <div class="badge-container">
-                  <span class="badge badge-mern">MERN Stack</span>
-                  <span class="badge badge-sec">Security</span>
-                  <span class="badge badge-ai">RAG / LLM</span>
-                </div>
-              </div>
-
-              <div class="right-col">
-                <div class="stats-card">
-                  <div style="color:var(--accent-blue); font-size:10px; margin-bottom:8px;">// Core Pipeline</div>
-                  <div class="progress-bar" style="width: 180px;"><div class="progress-fill" style="width: 92%;"></div></div>
-                  <div class="progress-bar" style="width: 140px;"><div class="progress-fill" style="width: 85%;"></div></div>
-                  <div class="status-indicator">● LIVE_COMMIT_MODE: ACTIVE</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="footer">
-              <span>TypeScript // Node.js // Python</span>
-              <span>PostgreSQL // MongoDB // Docker</span>
-            </div>
+          <div class="status-indicator">
+            <span>●</span> LIVE_COMMIT_MODE: ACTIVE
           </div>
         </div>
-      </foreignObject>
-    </svg>
-  `;
+      </div>
+    </div>
 
-  res.setHeader('Content-Type', 'image/svg+xml');
-  res.setHeader('Cache-Control', 'public, s-maxage=3600');
-  res.status(200).send(svg);
-}
+    <div class="footer">
+      <span>UTF-8 // TypeScript // Python</span>
+      <span>UTF-8 // Node.js // PostgreSQL</span>
+    </div>
+  </div>
+
+</body>
+</html>
